@@ -10,7 +10,7 @@ function openItem(e) {
     item.classList.remove("open");
   });
 
-  e.target.closest(".item").classList.add("open");
+  e.target.closest(".item").classList.toggle("open");
 }
 
 // event handler
